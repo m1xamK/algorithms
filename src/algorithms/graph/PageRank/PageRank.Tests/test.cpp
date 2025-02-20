@@ -30,7 +30,7 @@ TEST(PageRank, BigDataFilesTests) {
 
 
 TEST(PageRank,FilesTests2) {
-    auto vec = getPageRank("data/MyPeson.csv");
+    auto vec = getPageRank("data/persons.csv");
     double eps = 0.01;
     std::sort(vec.begin(), vec.end(), [](auto x, auto y) {return x.first > y.first; });
     std::vector<double> ans = {0.00086275, 0.00086275 , 0.000351923 , 0.000351923 , 0.000351923 };
