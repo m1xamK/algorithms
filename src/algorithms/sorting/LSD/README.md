@@ -33,3 +33,8 @@ LSD - это несопоставимый алгоритм сортировки 
 
 ![LSD](./images/lsd1.png)
 
+
+# Выполнение кода
+ Для запуска кода используйте команду:
+
+`cmake -S . -B build && cmake --build "build" && ./build/tests/LSD_tests`

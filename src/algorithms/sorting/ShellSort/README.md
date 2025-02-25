@@ -38,3 +38,9 @@ O( log2 n)    | O(n2)       | зависит от выбранных шагов 
 
 Доп материалы:
 [Видеоразбор алгоритма](https://www.youtube.com/watch?v=7hSjLR0iM-Q)
+
+
+# Выполнение кода
+ Для запуска кода используйте команду:
+
+`cmake -S . -B build && cmake --build "build" && ./build/tests/ShellSort_tests`
