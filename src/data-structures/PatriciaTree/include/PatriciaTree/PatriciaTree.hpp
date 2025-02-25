@@ -133,7 +133,7 @@ std::bitset<N> ReverseBits(std::bitset<N> a)
 template<typename T>
 PatriciaTree<T>::PatriciaTree()
 {
-	TreeNode<T>* node = new TreeNode('\0', BitsOfChar('\0'), 0);
+	TreeNode<T>* node = new TreeNode<T>('\0', BitsOfChar('\0'), 0);
 	node->_left = node;
 	node->_right = node;
 	this->_root = node;
@@ -146,7 +146,7 @@ void PatriciaTree<T>::Insert(char elem)
 	{
 		std::bitset<N> newKey = BitsOfChar(elem);
 		int index = FirstDiffIndex(ReverseBits(newKey), ReverseBits(this->_root->_value));
-		TreeNode<T>* newNode = new TreeNode(elem, newKey, index);
+		TreeNode<T>* newNode = new TreeNode<T>(elem, newKey, index);
 		this->_root->_left = newNode;
 		if (ReverseBits(newKey)[index - 1] == 1) {
 			newNode->_right = newNode;
@@ -174,7 +174,7 @@ void PatriciaTree<T>::Insert(TreeNode<T>* currentNode, TreeNode<T>* prevNode, ch
 		ReverseBits(bits)[currentNode->_index - 1] == 1 ? currentNode = currentNode->_right : currentNode = currentNode->_left;
 	}
 	int diffInd = FirstDiffIndex(ReverseBits(currentNode->_value), ReverseBits(bits));
-	TreeNode<T>* newNode = new TreeNode(elem, bits, diffInd);
+	TreeNode<T>* newNode = new TreeNode<T>(elem, bits, diffInd);
 	currentNode = this->_root->_left;
 	prevNode = this->_root;
 	while (currentNode->_index > prevNode->_index && diffInd > currentNode->_index)

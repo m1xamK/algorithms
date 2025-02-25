@@ -1,5 +1,5 @@
-#include "pch.h"
-#include "../PatriciaTree/PatriciaTree.h"
+#include <gtest/gtest.h>
+#include "../include/PatriciaTree/PatriciaTree.hpp"
 #include <bitset>
 
 TEST(PatriciaTreeTests, InsertTest)

@@ -57,3 +57,9 @@
 Поиск  | Вставка 
 ------ | ------  
 O(l(key))   | O(l(key))
+
+
+## Выполнение кода
+ Для запуска кода используйте команду:
+
+`cmake -S . -B build && cmake --build "build" && ./build/PatriciaTreeTests`
