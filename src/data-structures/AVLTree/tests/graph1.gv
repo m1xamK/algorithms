@@ -1,0 +1,22 @@
+digraph G
+{
+65->10[color=black]
+65->82[color=black]
+10->4[color=black]
+10->61[color=black]
+inv4 [style=invis]
+4->inv4 [style=invis]
+inv4 [style=invis]
+4->inv4 [style=invis]
+inv61 [style=invis]
+61->inv61 [style=invis]
+inv61 [style=invis]
+61->inv61 [style=invis]
+inv82 [style=invis]
+82->inv82 [style=invis]
+82->99[color=black]
+inv99 [style=invis]
+99->inv99 [style=invis]
+inv99 [style=invis]
+99->inv99 [style=invis]
+}
