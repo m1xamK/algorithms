@@ -1,0 +1,16 @@
+digraph G {
+0->0[color = red]
+a->0[color = green]
+v->v[color = red]
+j->j[color = green]
+j->l[color = red]
+l->j[color = red]
+e->e[color = red]
+b->b[color = red]
+b->a[color = green]
+e->b[color = green]
+l->e[color = green]
+v->l[color = green]
+a->v[color = red]
+0->a[color = green]
+}
