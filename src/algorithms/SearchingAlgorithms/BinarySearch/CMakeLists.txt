@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.14)
+project(DDZ)
+include(CTest)
+enable_testing()
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lgcov --coverage")
+add_executable(DDZTests tests/BinarySearch.tests.cpp)
+target_link_libraries(DDZTests PRIVATE gtest_main gtest pthread)
+# Явно зарегистрируйте тест
+add_test(NAME AllTests COMMAND DDZTests)
