@@ -1,0 +1,19 @@
+# ninja log v5
+2	58	7084666420614364	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	fe1457394605d736
+2	58	7084666420614364	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	fe1457394605d736
+59	4827	7084666468203042	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	a1bbade693d2d08a
+59	4827	7084666468203042	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	a1bbade693d2d08a
+4828	4926	7084666469253285	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	dd9acb037f568c5c
+4828	4926	7084666469253285	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	dd9acb037f568c5c
+4926	5011	7084666470113476	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	3654e71792a096ab
+4926	5011	7084666470113476	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	3654e71792a096ab
+5011	5085	7084666470863654	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	dfa55365fd397f1
+5011	5085	7084666470863654	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	dfa55365fd397f1
+5086	5167	7084666471653844	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8a29815483a30aa1
+5086	5167	7084666471653844	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8a29815483a30aa1
+5167	5247	7084666472474027	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7afd2fa45a9916ad
+5167	5247	7084666472474027	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7afd2fa45a9916ad
+5248	5329	7084666473324184	CMakeFiles/googletest-populate-complete	95c2fd4fb8862e38
+5248	5329	7084666473324184	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	95c2fd4fb8862e38
+5248	5329	7084666473324184	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	95c2fd4fb8862e38
+5248	5329	7084666473324184	C:/Users/Kastoms/Desktop/mp_ddz/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	95c2fd4fb8862e38
